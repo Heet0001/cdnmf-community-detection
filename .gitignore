@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks / IDE
+.ipynb_checkpoints/
+.cursor/
+
+# Data and trained weights (too large; clone official CDNMF for Database/)
+Database/
+Log/
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
